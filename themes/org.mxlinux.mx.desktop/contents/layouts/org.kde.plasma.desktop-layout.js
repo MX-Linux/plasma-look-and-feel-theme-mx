@@ -174,8 +174,8 @@ var layout = {
             "height": 1.6666666666666667,
             "hiding": "normal",
             "location": "bottom",
-            "maximumLength": 75.88888888888889,
-            "minimumLength": 75.88888888888889,
+            "maximumLength": 100,
+            "minimumLength": 100,
             "offset": 0
         }
     ],
