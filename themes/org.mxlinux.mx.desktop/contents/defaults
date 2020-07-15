@@ -7,6 +7,9 @@ ColorScheme=Breeze
 [kdeglobals][KDE]
 widgetStyle=breeze
 
+[kdeglobals][Icons]
+Theme=breeze
+
 [kwinrc][DesktopSwitcher]
 LayoutName=org.kde.breeze.desktop
 
