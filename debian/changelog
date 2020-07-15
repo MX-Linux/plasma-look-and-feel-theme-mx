@@ -1,3 +1,16 @@
+plasma-look-and-feel-theme-mx (20.07.04) mx; urgency=medium
+
+  [ fehlix ]
+  * panel max/min width
+
+ -- dolphin oracle <dolphin@littlebyte>  Tue, 14 Jul 2020 20:32:23 -0400
+
+plasma-look-and-feel-theme-mx (20.07.03) mx; urgency=medium
+
+  * adjustments to panel form factor 
+
+ -- dolphin oracle <dolphin@littlebyte>  Tue, 14 Jul 2020 20:32:23 -0400
+
 plasma-look-and-feel-theme-mx (20.07.02) mx; urgency=medium
 
   * adjust panel size 
