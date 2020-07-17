@@ -185,3 +185,18 @@ var layout = {
 ;
 
 plasma.loadSerializedLayout(layout);
+
+for (var i in panels()) { 
+    panel = panels()[i]; 
+    for (var j in panel.widgets()) { 
+        widget = panel.widgets()[j];  
+        if (widget.type ==  "org.kde.plasma.systemtray") { 
+            systemtrayId = widget.readConfig("SystrayContainmentId"); 
+            var systray = desktopById(systemtrayId); 
+            systray.currentConfigGroup = ["General"]; 
+            systray.writeConfig("shownItems", "apt-notifier.py"); 
+            systray.reloadConfig();  
+            panel.reloadConfig(); 
+        } 
+    }  
+};
