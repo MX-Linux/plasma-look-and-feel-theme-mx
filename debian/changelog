@@ -1,3 +1,10 @@
+plasma-look-and-feel-theme-mx (20.07.05) mx; urgency=medium
+
+  [ fehlix ]
+  * add restoring apt-notifier icon in systray
+
+ -- fehlix <fehlix@mxlinux.org>  Fri, 17 Jul 2020 23:23:45 +0200
+
 plasma-look-and-feel-theme-mx (20.07.04) mx; urgency=medium
 
   [ fehlix ]
