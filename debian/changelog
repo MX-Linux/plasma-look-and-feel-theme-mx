@@ -1,3 +1,12 @@
+plasma-look-and-feel-theme-mx (20.07.05) mx; urgency=medium
+
+  * revised theme
+  * papirus icon
+  * integrated QuarksSplashDark splash theme
+  * now relies on new default panel and default wallpaper setup 
+
+ -- dolphin oracle <dolphin@littlebyte>  Thu, 30 Jul 2020 22:07:23 -0400
+
 plasma-look-and-feel-theme-mx (20.07.04) mx; urgency=medium
 
   [ fehlix ]
