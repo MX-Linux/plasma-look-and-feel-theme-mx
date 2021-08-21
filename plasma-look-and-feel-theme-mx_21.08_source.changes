@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 20 Aug 2021 23:22:28 -0400
+Source: plasma-look-and-feel-theme-mx
+Architecture: source
+Version: 21.08
+Distribution: mx
+Urgency: medium
+Maintainer: dolphin oracle <dolphinoracle@gmail.com>
+Changed-By: Adrian <adrian@mxlinux.org>
+Changes:
+ plasma-look-and-feel-theme-mx (21.08) mx; urgency=medium
+ .
+   * Update previews
+Checksums-Sha1:
+ fb960fa239f92b9327913859fce42ccd88e5b11b 1213 plasma-look-and-feel-theme-mx_21.08.dsc
+ 62920783f42e5ed82b40d25403dc7397ea629c17 1947616 plasma-look-and-feel-theme-mx_21.08.tar.xz
+ e84b7cc167c983ecb39978f54ed85f586c79ad4d 5451 plasma-look-and-feel-theme-mx_21.08_amd64.buildinfo
+Checksums-Sha256:
+ 933eeff4cf793ccb9ef0491ee02397ff9fc832eb91acb2159635d1ac79eee4d1 1213 plasma-look-and-feel-theme-mx_21.08.dsc
+ a4669a07df1bc68eb9d0fd9b180ee2744a35b9cb53ffe12a8835ed6896a1cc43 1947616 plasma-look-and-feel-theme-mx_21.08.tar.xz
+ e7cf0f2a200e2e0e968a510773b20d2c607f9fa7e2869f687d0fe0f14902e6b4 5451 plasma-look-and-feel-theme-mx_21.08_amd64.buildinfo
+Files:
+ a0d9c549ac617c4c9045bacc0d01d791 1213 system extra plasma-look-and-feel-theme-mx_21.08.dsc
+ 17dce4977c38e9ae06465d28f7d22858 1947616 system extra plasma-look-and-feel-theme-mx_21.08.tar.xz
+ d80ab126320d8f86765e542f8a757033 5451 system extra plasma-look-and-feel-theme-mx_21.08_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmEgcckTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumN1eB/9NvGEShSVFCYLD76qZtorT33ESknGx
+4M1caIHRCnwFjL1SDHNDgdEGCUwM06FgU7T5gN1qmAdlgM4kgh18ENPdoARIynwz
+4age2/k2r/3REtJUywyq2hKE5PCA+lriteSUIWEb2qH4xQO53jmIqECEDljggcKa
+BRJALJg6cApPE4jQG9jNN8Dr3JUuS8Y2LzMgA9Y1yZsLqkoEpj2V54wdsehLYJoO
+jUZM/7TOR5YdKlLR6t5NjBSP3fd4TbUsqjtXmTUbCorQZ8dPHfD7gSehqblwf+pg
+Dj5/kWg7WUiJm2Cl4Q5iy1CDmOsyVyfR6F5cfhGAbtgSSX+FRts9i5ld
+=umCM
+-----END PGP SIGNATURE-----
