@@ -1,0 +1,70 @@
+ dpkg-buildpackage -us -uc -ui
+dpkg-buildpackage: info: source package plasma-look-and-feel-theme-mx
+dpkg-buildpackage: info: source version 21.09.01
+dpkg-buildpackage: info: source distribution mx
+dpkg-buildpackage: info: source changed by Dolphin Oracle <dolphinoracle@gmail.com>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+dh clean 
+dh: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_clean
+dh_clean: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+ dpkg-source -b .
+dpkg-source: info: using source format '3.0 (native)'
+dpkg-source: info: building plasma-look-and-feel-theme-mx in plasma-look-and-feel-theme-mx_21.09.01.tar.xz
+dpkg-source: info: building plasma-look-and-feel-theme-mx in plasma-look-and-feel-theme-mx_21.09.01.dsc
+ debian/rules build
+dh build 
+dh: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_update_autotools_config
+ fakeroot debian/rules binary
+dh binary 
+dh: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_testroot
+   dh_prep
+   dh_install
+dh_install: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_installdocs
+dh_installdocs: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+dh_compress: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_fixperms
+   dh_missing
+dh_missing: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_installdeb
+dh_installdeb: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'plasma-look-and-feel-theme-mx' in '../plasma-look-and-feel-theme-mx_21.09.01_all.deb'.
+ dpkg-genbuildinfo
+ dpkg-genchanges  >../plasma-look-and-feel-theme-mx_21.09.01_amd64.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build .
+dpkg-buildpackage: info: full upload; Debian-native package (full source is included)
+Now running lintian plasma-look-and-feel-theme-mx_21.09.01_amd64.changes ...
+E: plasma-look-and-feel-theme-mx changes: bad-distribution-in-changes-file mx
+E: plasma-look-and-feel-theme-mx: bogus-mail-host-in-debian-changelog dolphin@littlebyte
+E: plasma-look-and-feel-theme-mx: bogus-mail-host-in-debian-changelog dolphin@littlebyte
+E: plasma-look-and-feel-theme-mx: bogus-mail-host-in-debian-changelog dolphin@littlebyte
+E: plasma-look-and-feel-theme-mx: bogus-mail-host-in-debian-changelog dolphin@littlebyte
+E: plasma-look-and-feel-theme-mx: copyright-not-using-common-license-for-gpl
+E: plasma-look-and-feel-theme-mx: extended-description-is-empty
+W: plasma-look-and-feel-theme-mx source: ancient-standards-version 3.9.3 (released 2012-02-23) (current is 4.5.1)
+W: plasma-look-and-feel-theme-mx: executable-not-elf-or-script usr/share/color-schemes/MXcomfortbreeze.colors
+W: plasma-look-and-feel-theme-mx: executable-not-elf-or-script usr/share/color-schemes/MXcomfortdark.colors
+W: plasma-look-and-feel-theme-mx: executable-not-elf-or-script usr/share/plasma/desktoptheme/mx-comfort-breeze-dark/colors
+W: plasma-look-and-feel-theme-mx: executable-not-elf-or-script usr/share/plasma/desktoptheme/mx-comfort-breeze-dark/metadata.desktop
+W: plasma-look-and-feel-theme-mx: executable-not-elf-or-script usr/share/plasma/desktoptheme/mx-comfort-breeze-dark/widgets/clock.svgz
+W: plasma-look-and-feel-theme-mx: executable-not-elf-or-script usr/share/plasma/desktoptheme/mx-comfort-breeze-dark/widgets/plasmoidheading.svgz
+W: plasma-look-and-feel-theme-mx source: no-nmu-in-changelog
+W: plasma-look-and-feel-theme-mx source: package-uses-deprecated-debhelper-compat-version 9
+W: plasma-look-and-feel-theme-mx: priority-extra-is-replaced-by-priority-optional
+W: plasma-look-and-feel-theme-mx source: source-nmu-has-incorrect-version-number 21.09.01
+W: plasma-look-and-feel-theme-mx: unknown-section system
+Finished running lintian.
