@@ -1,8 +1,9 @@
-plasma-look-and-feel-theme-mx (21.08) mx; urgency=medium
+plasma-look-and-feel-theme-mx (21.09.01) mx; urgency=medium
 
-  * Update previews
+  * update themes
+  * add dark color variant 
 
- -- Adrian <adrian@mxlinux.org>  Fri, 20 Aug 2021 23:22:28 -0400
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Thu, 02 Sep 2021 21:22:51 -0400
 
 plasma-look-and-feel-theme-mx (21.07.01) mx; urgency=medium
 
