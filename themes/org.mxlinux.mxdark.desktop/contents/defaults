@@ -2,13 +2,13 @@
 cursorTheme=breeze_cursors
 
 [kdeglobals][General]
-ColorScheme=MXcomfortbreeze
+ColorScheme=MXcomfortdark
 
 [kdeglobals][KDE]
 widgetStyle=breeze
 
 [kdeglobals][Icons]
-Theme=Papirus-mxblue-darkpanes
+Theme=Papirus-mxbluedark
 
 [kwinrc][DesktopSwitcher]
 LayoutName=org.kde.breeze.desktop
