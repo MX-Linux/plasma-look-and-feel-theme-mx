@@ -1,6 +1,6 @@
  dpkg-buildpackage -us -uc -ui
 dpkg-buildpackage: info: source package plasma-look-and-feel-theme-mx
-dpkg-buildpackage: info: source version 21.09.01
+dpkg-buildpackage: info: source version 21.09.02
 dpkg-buildpackage: info: source distribution mx
 dpkg-buildpackage: info: source changed by Dolphin Oracle <dolphinoracle@gmail.com>
  dpkg-source --before-build .
@@ -12,8 +12,8 @@ dh: warning: Compatibility levels before 10 are deprecated (level 9 in use)
 dh_clean: warning: Compatibility levels before 10 are deprecated (level 9 in use)
  dpkg-source -b .
 dpkg-source: info: using source format '3.0 (native)'
-dpkg-source: info: building plasma-look-and-feel-theme-mx in plasma-look-and-feel-theme-mx_21.09.01.tar.xz
-dpkg-source: info: building plasma-look-and-feel-theme-mx in plasma-look-and-feel-theme-mx_21.09.01.dsc
+dpkg-source: info: building plasma-look-and-feel-theme-mx in plasma-look-and-feel-theme-mx_21.09.02.tar.xz
+dpkg-source: info: building plasma-look-and-feel-theme-mx in plasma-look-and-feel-theme-mx_21.09.02.dsc
  debian/rules build
 dh build 
 dh: warning: Compatibility levels before 10 are deprecated (level 9 in use)
@@ -41,13 +41,13 @@ dh_installdeb: warning: Compatibility levels before 10 are deprecated (level 9 i
    dh_gencontrol
    dh_md5sums
    dh_builddeb
-dpkg-deb: building package 'plasma-look-and-feel-theme-mx' in '../plasma-look-and-feel-theme-mx_21.09.01_all.deb'.
+dpkg-deb: building package 'plasma-look-and-feel-theme-mx' in '../plasma-look-and-feel-theme-mx_21.09.02_all.deb'.
  dpkg-genbuildinfo
- dpkg-genchanges  >../plasma-look-and-feel-theme-mx_21.09.01_amd64.changes
+ dpkg-genchanges  >../plasma-look-and-feel-theme-mx_21.09.02_amd64.changes
 dpkg-genchanges: info: including full source code in upload
  dpkg-source --after-build .
 dpkg-buildpackage: info: full upload; Debian-native package (full source is included)
-Now running lintian plasma-look-and-feel-theme-mx_21.09.01_amd64.changes ...
+Now running lintian plasma-look-and-feel-theme-mx_21.09.02_amd64.changes ...
 E: plasma-look-and-feel-theme-mx changes: bad-distribution-in-changes-file mx
 E: plasma-look-and-feel-theme-mx: bogus-mail-host-in-debian-changelog dolphin@littlebyte
 E: plasma-look-and-feel-theme-mx: bogus-mail-host-in-debian-changelog dolphin@littlebyte
@@ -65,6 +65,6 @@ W: plasma-look-and-feel-theme-mx: executable-not-elf-or-script usr/share/plasma/
 W: plasma-look-and-feel-theme-mx source: no-nmu-in-changelog
 W: plasma-look-and-feel-theme-mx source: package-uses-deprecated-debhelper-compat-version 9
 W: plasma-look-and-feel-theme-mx: priority-extra-is-replaced-by-priority-optional
-W: plasma-look-and-feel-theme-mx source: source-nmu-has-incorrect-version-number 21.09.01
+W: plasma-look-and-feel-theme-mx source: source-nmu-has-incorrect-version-number 21.09.02
 W: plasma-look-and-feel-theme-mx: unknown-section system
 Finished running lintian.
