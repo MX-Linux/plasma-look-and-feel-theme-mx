@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sat, 04 Sep 2021 19:03:13 -0400
+Source: plasma-look-and-feel-theme-mx
+Binary: plasma-look-and-feel-theme-mx
+Architecture: source all
+Version: 21.09.02
+Distribution: mx
+Urgency: medium
+Maintainer: dolphin oracle <dolphinoracle@gmail.com>
+Changed-By: Dolphin Oracle <dolphinoracle@gmail.com>
+Description:
+ plasma-look-and-feel-theme-mx - misc plasma look & feel theme for mx linux
+Changes:
+ plasma-look-and-feel-theme-mx (21.09.02) mx; urgency=medium
+ .
+   * update color scheme names
+Checksums-Sha1:
+ bd7f9e1362470212870b4674023afdce2c2f92fe 663 plasma-look-and-feel-theme-mx_21.09.02.dsc
+ 4b384d2a86abc52dbea2b4240424e70d242f4aa8 3904548 plasma-look-and-feel-theme-mx_21.09.02.tar.xz
+ 133f1f6e9750926902b37a87caa2dbdeab98eaea 3906272 plasma-look-and-feel-theme-mx_21.09.02_all.deb
+ aba75fd6f97d33d81663150673bf8c8fa85107de 5558 plasma-look-and-feel-theme-mx_21.09.02_amd64.buildinfo
+Checksums-Sha256:
+ 294d1ef49b4b869a2e2361e6341ee2a960e0012e073347710a1272256b0b92a1 663 plasma-look-and-feel-theme-mx_21.09.02.dsc
+ e96c09fae99f80ff97c6a697233fdf5a73c6f84383109c6e23a76e2a73b45a2a 3904548 plasma-look-and-feel-theme-mx_21.09.02.tar.xz
+ b2b39e1545e8c6e7d5e0aee86ab322567929463bc6a75ccad0cf5dcd4f72c7c3 3906272 plasma-look-and-feel-theme-mx_21.09.02_all.deb
+ 8c4253a6b1dd44c8dcc2fdf7e7685ea1a6d24579a12075f2d2e309168bc951e9 5558 plasma-look-and-feel-theme-mx_21.09.02_amd64.buildinfo
+Files:
+ 6fdb623951945ddf7a6018506f7779b1 663 system extra plasma-look-and-feel-theme-mx_21.09.02.dsc
+ be8a69140b5c0e92df54d173b891d232 3904548 system extra plasma-look-and-feel-theme-mx_21.09.02.tar.xz
+ cd1289d0ef0cfe6c3d83773611a62279 3906272 system extra plasma-look-and-feel-theme-mx_21.09.02_all.deb
+ 91c19f355cf9e1de259c1a252782ea89 5558 system extra plasma-look-and-feel-theme-mx_21.09.02_amd64.buildinfo
