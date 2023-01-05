@@ -4,17 +4,17 @@ Binary: plasma-look-and-feel-theme-mx
 Architecture: all source
 Version: 23.01.01
 Checksums-Md5:
- 10cbe2091ec8a05be07d092dbc3dd367 666 plasma-look-and-feel-theme-mx_23.01.01.dsc
+ 8f351ed39e5b2afefe3b24d5015c2f86 663 plasma-look-and-feel-theme-mx_23.01.01.dsc
  15ad30dedd9c68a844fe9f4229a3b550 1277260 plasma-look-and-feel-theme-mx_23.01.01_all.deb
 Checksums-Sha1:
- 38c1e4f50b54aa10111a04dc901d962186cfa11b 666 plasma-look-and-feel-theme-mx_23.01.01.dsc
+ c4cb838d66252e1ec6fce9b72d6a524ecba6dcce 663 plasma-look-and-feel-theme-mx_23.01.01.dsc
  be987f1a38e4b59ef6492438634aee691734e65e 1277260 plasma-look-and-feel-theme-mx_23.01.01_all.deb
 Checksums-Sha256:
- 78e2573633d71230e82cb773589099126f3e93294c6df318b301badd32de5d07 666 plasma-look-and-feel-theme-mx_23.01.01.dsc
+ f662c5d58ea8f69f1468d05da7b81932d49b08e6265acd3102e2cecef4cd0dc7 663 plasma-look-and-feel-theme-mx_23.01.01.dsc
  0b76bc20dc286b4b66f4e512ab9ce2f669d22ab8631cdf4f2eb28cae93ad5d47 1277260 plasma-look-and-feel-theme-mx_23.01.01_all.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Thu, 05 Jan 2023 06:43:47 -0500
+Build-Date: Thu, 05 Jan 2023 06:51:06 -0500
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
