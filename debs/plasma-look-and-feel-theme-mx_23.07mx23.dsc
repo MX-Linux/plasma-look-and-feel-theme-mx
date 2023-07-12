@@ -12,20 +12,20 @@ Build-Depends: debhelper (>= 8.0.0)
 Package-List:
  plasma-look-and-feel-theme-mx deb system extra arch=all
 Checksums-Sha1:
- 40c76d6147ce0a276f2bb1fef8e6955e7f93403d 1993176 plasma-look-and-feel-theme-mx_23.07mx23.tar.xz
+ e346abb4e770e5e36767e229c4b607f873baa1d9 1770468 plasma-look-and-feel-theme-mx_23.07mx23.tar.xz
 Checksums-Sha256:
- 275f8c61f13b41ccc8af5300526e3ef5eca7fa97592f68ecef4418225d546458 1993176 plasma-look-and-feel-theme-mx_23.07mx23.tar.xz
+ 551c54aa7d97ad3154eeca4c2a749bb04d8d7bc2f37379869ef03dec1517dda7 1770468 plasma-look-and-feel-theme-mx_23.07mx23.tar.xz
 Files:
- 5a85a8b4c3ac111b8f935f4791de169c 1993176 plasma-look-and-feel-theme-mx_23.07mx23.tar.xz
+ 7c0556fa2737dd253788caca54de5b6b 1770468 plasma-look-and-feel-theme-mx_23.07mx23.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmSvK1UTHGFkcmlhbkBt
-eGxpbnV4Lm9yZwAKCRBwk4x4BnnumEUpB/9FieG3WvRxiq+RZRiYIoQ2IGenVshx
-AIYBm2wpsSm5ZP1vlZXfo4wK58hQJc7+/Q7jGd1NTIic79a1ond4ksaIZQ5kLflZ
-jTqYtkJZJ34/Nfg+Ymtnhwc46GTOSOlwefd/X0y8GOipXDgX6pjUsLXdzkTk0JIH
-ZRsX2G6bsZFHSiEWepqzBOf9HCeW81iHSyj0nm/8Oqqk5WkOWeLgMBYBblTquPQJ
-aYutlMjymbuUlLTo5YFOi3C5iHMBDL+u8ibWsWdfJ0F/P3TKN78U3iM35UOQz73c
-qC4Jt7xHtpnHZEb64WGnl+HI/jikQ9oYMG5Q/NTsQP7hf0meOZIYiGa0
-=UepM
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmSvN6oTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumGMnCAC7MjriXbhP3X7f8lXxO86faJr5Upij
+qNBo9HEv2hZ0p5WIEp20Vup9yKUmszL40jMSIMhXWi+GEGj4IveTbcqC1e+vn9BU
+4bOvtCHbDY3MFTMVip8hfPebxvCldlQ2udGHvQ/l03Vwk0vVaBe+xOKpKeqx5UF/
+c1c5Q+0sL/VF1AlIw27V3cvZhh35LEbyCLPWivQJhYrEu6J40Tagy/jNpBUaB4dm
+doaEXI68B+PuMTpm99X9vLvYfyyoiekzslVf45Rg4TskqVjN+NbM04h8LCGiZ+Kd
+m4Zas24JcxJXR93WGVmGWQ4DF/GNHKL9eF9ix71/qjZf6NmXQy5lGZ1V
+=znt8
 -----END PGP SIGNATURE-----
