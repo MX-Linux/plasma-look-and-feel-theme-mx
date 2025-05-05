@@ -1,3 +1,9 @@
+plasma-look-and-feel-theme-mx (25.05.01) mx; urgency=medium
+
+  * update meta data info to json format
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sun, 04 May 2025 20:53:56 -0400
+
 plasma-look-and-feel-theme-mx (23.08mx23) mx; urgency=medium
 
   * Reduce preview size
