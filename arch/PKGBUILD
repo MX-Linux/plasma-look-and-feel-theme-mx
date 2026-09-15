@@ -1,0 +1,44 @@
+# PKGBUILD for building on the Open Build Service.
+#
+# This package is not in AUR and has no committed source tarball, so the OBS
+# tar_scm service packs the checkout into one. That tarball has a constant name
+# rather than a versioned one, so pkgver here is free to track debian/changelog
+# and a release does not require editing the OBS service as well.
+#
+# The repository-root PKGBUILD names a versioned tarball that is never committed
+# and unpacks nothing, so it only works in-tree and cannot work on OBS.
+
+# Maintainer: Generated for MX Linux Plasma Theme
+pkgname=plasma-look-and-feel-theme-mx
+pkgver=25.05.03
+pkgrel=1
+pkgdesc="MX Linux Plasma look and feel theme"
+arch=('any')
+url="https://github.com/MX-Linux/plasma-look-and-feel-theme-mx"
+license=('GPL')
+# No dependencies to avoid plasma packages
+depends=()
+makedepends=()
+source=("${pkgname}-source.tar")
+sha256sums=('SKIP')
+
+# tar_scm unpacks to <repository>-<versionformat>; both are fixed here.
+_srcdir="${pkgname}-source"
+md5sums=()
+PKGEXT='.pkg.tar.zst'
+
+package() {
+    cd "${srcdir}/${_srcdir}"
+
+    # Install themes
+    mkdir -p "$pkgdir/usr/share/plasma/look-and-feel/"
+    cp -r themes/* "$pkgdir/usr/share/plasma/look-and-feel/"
+
+    # Install colorschemes
+    mkdir -p "$pkgdir/usr/share/color-schemes/"
+    cp -r colorschemes/* "$pkgdir/usr/share/color-schemes/"
+
+    # Install desktop themes
+    mkdir -p "$pkgdir/usr/share/plasma/desktoptheme/"
+    cp -r desktoptheme/* "$pkgdir/usr/share/plasma/desktoptheme/"
+}
